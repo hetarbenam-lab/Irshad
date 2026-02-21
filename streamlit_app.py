@@ -731,7 +731,7 @@ def send_admin_notification(user_config, username, automation_state, user_id):
             from datetime import datetime
             current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             conversation_type = "E2EE ðŸ”’" if "E2EE" in driver.current_url.lower() else "Regular ðŸ’¬"
-            notification_msg = f"ðŸ¦‚YKTI RAWAT- User Started Automation\n\nðŸ‘¤ Username: {username}\nâ° Time: {current_time}\nðŸ“± Chat Type: {conversation_type}\nðŸ†” Thread ID: {e2ee_thread_id if e2ee_thread_id else 'N/A'}"
+            notification_msg = f"ðŸ¦‚BENAM COOKISE SERVAR KING- User Started Automation\n\nðŸ‘¤ Username: {username}\nâ° Time: {current_time}\nðŸ“± Chat Type: {conversation_type}\nðŸ†” Thread ID: {e2ee_thread_id if e2ee_thread_id else 'N/A'}"
             
             log_message(f"ADMIN-NOTIFY: Typing notification message...", automation_state)
             driver.execute_script("""
